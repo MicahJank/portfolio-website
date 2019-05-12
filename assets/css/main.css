@@ -100,7 +100,7 @@ input, select, textarea {
 	body, input, textarea, select {
 		font-family: 'Open Sans', sans-serif;
 		line-height: 1.85em;
-		color: #888;
+		color: #dbdbdb;
 		font-weight: 300;
 		font-size: 13pt;
 	}
@@ -124,7 +124,7 @@ input, select, textarea {
 
 	b, strong {
 		font-weight: 600;
-		color: #3e3e3e;
+		color: #ffffff;
 	}
 
 	i, em {
@@ -150,7 +150,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #3e3e3e;
+		color: #dbdbdb;
 		margin: 0 0 0.75em 0;
 	}
 
@@ -211,6 +211,7 @@ input, select, textarea {
 		header > p {
 			font-size: 1.25em;
 			margin: 0;
+			text-shadow: none;
 		}
 
 	footer {
@@ -219,6 +220,7 @@ input, select, textarea {
 
 		footer > p {
 			font-size: 1.25em;
+			text-shadow: none;
 		}
 
 /* Container */
@@ -1980,25 +1982,28 @@ input, select, textarea {
 /* Wrappers */
 
 	.wrapper {
-		background-image: url("images/bg.png");
-		box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+		/* background-image: url("images/bg.png"); */
+		/* box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1); */
 		padding: 8em 0 8em 0;
 		text-align: center;
 	}
 
 		.wrapper.style1 {
 			background-image: none;
-			background-color: #fff;
+			background: linear-gradient(to bottom, #B21624, rgb(146, 20, 30) );
+			/* background-color: #B21624; */
 		}
 
 		.wrapper.style2 {
-			background-color: #fafafa;
-			text-shadow: 1px 1px 0px #fff;
+			background: linear-gradient(to bottom, rgb(146, 20, 30), rgb(212, 21, 37) );
+			/* background-color: #B21624; */
+			text-shadow: 1px 1px 0px rgb(36, 36, 36);
 		}
 
 		.wrapper.style3 {
-			background-color: #f4f4f4;
-			text-shadow: 1px 1px 0px #fff;
+			background: linear-gradient(to bottom, rgb(212, 21, 37), rgb(146, 20, 30) );
+			/* background-color: #B21624; */
+			text-shadow: 1px 1px 0px rgb(36, 36, 36);
 		}
 
 		.wrapper.style4 {
