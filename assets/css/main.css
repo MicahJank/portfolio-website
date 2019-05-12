@@ -1943,36 +1943,39 @@ input, select, textarea {
 
 /* Icons */
 
-	.icon {
-		text-decoration: none;
+	.social .icon:before {
+		font-family: FontAwesome;
 	}
 
-		.icon:before {
-			display: inline-block;
-			font-family: FontAwesome;
-			font-size: 1.25em;
+		.icon {
 			text-decoration: none;
-			font-style: normal;
-			font-weight: normal;
-			line-height: 1;
-			-webkit-font-smoothing: antialiased;
-			-moz-osx-font-smoothing: grayscale;
 		}
 
-		.icon > .label {
-			display: none;
-		}
-
-		.icon.featured {
-			color: #EA8A95;
-			display: block;
-			margin: 0 0 1.5em 0;
-			cursor: default;
-		}
-
-			.icon.featured:before {
-				font-size: 6em;
+			.icon:before {
+				display: inline-block;
+				font-size: 1.25em;
+				text-decoration: none;
+				font-style: normal;
+				font-weight: normal;
+				line-height: 1;
+				-webkit-font-smoothing: antialiased;
+				-moz-osx-font-smoothing: grayscale;
 			}
+
+			.icon > .label {
+				display: none;
+			}
+
+			.icon.featured {
+				color: #EA8A95;
+				display: block;
+				margin: 0 0 1.5em 0;
+				cursor: default;
+			}
+
+				.icon.featured:before {
+					font-size: 6em;
+				}
 
 /* Wrappers */
 
