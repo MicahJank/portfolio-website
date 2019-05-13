@@ -1917,7 +1917,6 @@ input, select, textarea {
 /* Box */
 
 	.box {
-		background: #fff;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 		text-align: center;
 		padding: 2em;
@@ -1925,6 +1924,7 @@ input, select, textarea {
 
 		.box.style1 {
 			padding: 3em 2em 3.5em 2em;
+			background: rgb(146, 21, 31)
 		}
 
 			.box.style1 h3 {
@@ -1969,7 +1969,7 @@ input, select, textarea {
 			}
 
 			.icon.featured {
-				color: #EA8A95;
+				z-index: 1;
 				display: block;
 				margin: 0 0 1.5em 0;
 				cursor: default;
@@ -1978,6 +1978,18 @@ input, select, textarea {
 				.icon.featured:before {
 					font-size: 6em;
 				}
+
+			.icon.featured.fa-html5 {
+				color: rgb(255, 142, 49);
+			}
+
+			.icon.featured.fa-css3 {
+				color: rgb(93, 131, 255);
+			}
+
+			.icon.featured.fa-js {
+				color: #F0D91D;
+			}
 
 /* Wrappers */
 
@@ -2343,6 +2355,8 @@ input, select, textarea {
 
 		/* Box */
 
+		article
+
 			.box {
 				padding: 30px 20px 30px 20px;
 				margin: 0 0 20px 0 !important;
@@ -2375,6 +2389,8 @@ input, select, textarea {
 					margin-left: auto !important;
 					margin-right: auto !important;
 				}
+
+				
 
 		/* Wrappers */
 
